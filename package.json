@@ -1,0 +1,33 @@
+{
+  "name": "vue-notifications",
+  "version": "1.0.0",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchloesserJonas/vue-errorLib.git"
+  },
+  "author": "SchloesserJonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SchloesserJonas/vue-errorLib/issues"
+  },
+  "homepage": "https://github.com/SchloesserJonas/vue-errorLib#readme",
+  "keywords": [],
+  "description": "",
+  "peerDependencies": {
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "rollup": "^4.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}

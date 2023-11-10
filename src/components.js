@@ -1,3 +1,3 @@
-import Warning from './Warning.vue'
+import Notification from './Notification.vue'
 
-export default { Warning }
+export default { Notification }

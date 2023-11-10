@@ -6,6 +6,6 @@
 
 <script>
     export default {
-        name: 'Warning'
+        name: 'Notification'
     }
 </script>
